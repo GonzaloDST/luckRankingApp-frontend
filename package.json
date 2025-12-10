@@ -1,0 +1,12 @@
+{
+  "name": "luck-ranking-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "scripts": {
+    "start": "python3 -m http.server 3000",
+    "build": "echo 'No build needed'"
+  }
+}
