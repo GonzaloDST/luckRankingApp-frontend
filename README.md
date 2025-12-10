@@ -1,1 +1,0 @@
-# luckRankingApp-frontend
