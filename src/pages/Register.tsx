@@ -4,9 +4,9 @@ import axios from 'axios';
 import './Register.css';
 
 const FILTERS = {
-  es_MX: 'individualValue=@&type=3&cp=1880',
-  es_ES: 'power=4&type=3',
-  en: 'type=3&individual_attack=15&individual_defense=15&individual_stamina=15'
+  es_MX: 'raid&4*&legendary,ultra beasts,mythical',
+  es_ES: 'raid&4*&legendary,ultra beasts,mythical',
+  en: 'raid&4*&legendary,ultra beasts,mythical'
 };
 
 const LANGUAGE_LABELS = {

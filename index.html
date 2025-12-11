@@ -481,7 +481,7 @@
                     document.getElementById('leaderboardContent').innerHTML = `<div class="error">Error al parsear respuesta: ${error}</div>`;
                     console.error("Error al parsear respuesta:", error, response);
                 } else {
-                    document.getElementById('leaderboardContent').innerHTML = `<p style="text-align: center;">No hay datos aún<br>Respuesta: ${text}</p>`;
+                    document.getElementById('leaderboardContent').innerHTML = `<p style="text-align: center;">No hay datos aún</p>`;
                 }
             } catch (error) {
                 document.getElementById('leaderboardContent').innerHTML = '<div class="error">Error de conexión</div>';
